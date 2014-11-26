@@ -7,3 +7,5 @@ gradle-app.setting
 **/*.ctxt
 *.sublime-workspace
 .Rproj.user
+*.Rhistory
+*.RData
