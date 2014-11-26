@@ -6,3 +6,4 @@ gradle-app.setting
 **/*.class
 **/*.ctxt
 *.sublime-workspace
+.Rproj.user
