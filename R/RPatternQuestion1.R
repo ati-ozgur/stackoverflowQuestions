@@ -1,3 +1,7 @@
+# http://stackoverflow.com/questions/27151750/how-to-simulate-data-properly#27151750
+# Basic info taken from Data Science Exploratory Analysis Course
+# http://datasciencespecialization.github.io/courses/04_ExploratoryAnalysis/dimensionReduction/index.html#6
+
 set.seed(12345)
 par(mar = rep(0.2, 4))
 
