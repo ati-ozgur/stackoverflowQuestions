@@ -10,3 +10,5 @@ gradle-app.setting
 *.Rhistory
 *.txt
 *.RObj
+*.RData
+

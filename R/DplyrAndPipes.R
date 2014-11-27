@@ -1,3 +1,5 @@
+library(dplyr)
+
 #   DplyrAndPipes.R
 
 #   http://seananderson.ca/2014/09/13/dplyr-intro.html
