@@ -8,4 +8,7 @@ gradle-app.setting
 *.sublime-workspace
 .Rproj.user
 *.Rhistory
+*.txt
+*.RObj
 *.RData
+
