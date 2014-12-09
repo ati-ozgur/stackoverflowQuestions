@@ -12,3 +12,4 @@ gradle-app.setting
 *.RObj
 *.RData
 
+*.csv
