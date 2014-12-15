@@ -12,5 +12,9 @@ gradle-app.setting
 *.RObj
 *.RData
 
+<<<<<<< HEAD
 
 *.history
+=======
+*.csv
+>>>>>>> FETCH_HEAD
