@@ -12,3 +12,7 @@ gradle-app.setting
 *.RObj
 *.RData
 
+DotNet/**/bin/*
+DotNet/**/obj/*
+
+*.suo
