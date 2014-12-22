@@ -16,3 +16,5 @@ DotNet/**/bin/*
 DotNet/**/obj/*
 
 *.suo
+*.history
+*.csv
