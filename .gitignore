@@ -12,9 +12,9 @@ gradle-app.setting
 *.RObj
 *.RData
 
-<<<<<<< HEAD
+DotNet/**/bin/*
+DotNet/**/obj/*
 
+*.suo
 *.history
-=======
 *.csv
->>>>>>> FETCH_HEAD
