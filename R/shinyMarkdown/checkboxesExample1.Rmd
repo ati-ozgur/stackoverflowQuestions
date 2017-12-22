@@ -1,0 +1,32 @@
+---
+output: html_document
+runtime: shiny
+---
+
+### Select car(s)
+```{r, echo=FALSE}
+
+## import car data
+data <- head(mtcars[1:6])
+data$id <- seq(1:nrow(data))
+
+## generate random car prices
+set.seed(1)
+data$price <- round(runif(nrow(data),5000,15000),0)
+
+## create table w/ checkboxes
+output$mytable = renderDataTable({
+  addCheckboxButtons <- paste0('<input id="table',data$id ,'" type="checkbox" name="row',  '" value="op', data$id, '">',"")
+  #Display table with checkbox buttons
+  z <- cbind(Pick=addCheckboxButtons, data)
+  z
+})
+
+## display table
+dataTableOutput({"mytable"})
+```
+
+### Total bill
+```{r}
+print(reactive(input$row))
+```
